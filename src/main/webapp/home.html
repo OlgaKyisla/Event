@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> event </title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+<header id="menu">
+    <img src="event1.svg" alt="tru" width="225">
+    <ul class="hr">
+        <li> <input type="button" value="Log out" id="LogButton"> </li>
+    </ul>
+</header>
+<div id="fon">
+    <form id="form" method="post">
+
+
+        <table align="center">
+
+            <tr>
+                <td>
+                    <label for="date"><h2 align="center"> Enter search criteria or  </h2> </label>
+                </td>
+                <td>
+                    <input  type="button" value="Add event" onclick="javascript:window.location='AddEvent.html' ">
+                </td>
+            </tr>
+
+        <tr>
+            <td>
+                <label for="date"> Date: </label>
+            </td>
+            <td>
+                <input  type="date" name="date" id="date" size="100" >
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="price"> Price: </label>
+            </td>
+            <td>
+                <input  type="number"  step="50" min="0" max="5000" value="0" id="price">
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label> Select city: </label>
+            </td>
+            <td>
+                <select id="selectCity">
+                    <option value="">All</option>
+                    <option value="Vinnytsia">Vinnytsia</option>
+                    <option value="Donetsk">Donetsk</option>
+                    <option value="Zhytomyr">Zhytomyr</option>
+                    <option value="Zaporizhzhia">Zaporizhzhia</option>
+                    <option value="Ivano-Frankivsk">Ivano-Frankivsk</option>
+                    <option value="Kyiv">Kyiv</option>
+                    <option value="Kirovohrad">Kirovohrad</option>
+                    <option value="Luhansk">Luhansk</option>
+                    <option value="Lutsk">Lutsk</option>
+                    <option value="Lviv">Lviv</option>
+                    <option value="Mykolaiv">Mykolaiv</option>
+                    <option value="Poltava">Poltava</option>
+                    <option value="Rivne">Rivne</option>
+                    <option value="Sevastopol">Sevastopol</option>
+                    <option value="Kharkiv">Kharkiv</option>
+                </select>
+            </td>
+        </tr>
+            <tr>
+            <td>
+                <input type="reset" value="Reset" >
+            </td>
+            <td>
+                <input type="button" value="Search" id="button">
+            </td>
+
+        </tr>
+            </table>
+    </form>
+    <br> <br>
+    <div id="result">
+        <table  id="table" >
+
+        </table>
+    </div>
+</div>
+
+
+
+<script src="jquery.js"></script>
+<script src="main.js"></script>
+<script src="reg.js"></script>
+</body>
+
+</html>

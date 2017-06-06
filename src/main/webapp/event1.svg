@@ -1,0 +1,15 @@
+<svg width="493" height="117" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="119" width="495" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="rotate(5.176512718200684 291.40713500976534,173.42227172851562) matrix(15.485848426818848,0,0,1,-2730.582428455353,0) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="181.719152" x="188.473362" stroke-width="0" fill="#000000"/>
+  <text font-style="italic" font-weight="bold" stroke="#000" transform="matrix(5.3824619513941565,0,0,5.449132036979677,-1257.9279140000108,-597.5485162045017) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="26" id="svg_3" y="128.933062" x="235" stroke-width="0" fill="#1ff0df">EVENT</text>
+ </g>
+</svg>

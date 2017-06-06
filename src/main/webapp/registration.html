@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> event </title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+<header id="menu">
+    <img src="event1.svg" alt="tru" width="225">
+</header>
+<div id="fon">
+    <form id="form" method="post" action="/reg">
+        <h2 align="center"> Registration </h2>
+        <h2 align="center"> Enter information: </h2>
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="name"><font size="3" face="Comfortaa"> Name :</font></label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="name" size="20" maxlength="15">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="login"><font size="3" face="Comfortaa"> Email: :</font></label>
+                </td>
+                <td>
+                    <input type="email" name="login" id="login" >
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pass"><font size="3" face="Comfortaa"> Password: :</font></label>
+                </td>
+                <td>
+                    <input type="password" name="pass" id="pass" >
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p><input type="submit" id="backButton" value="Back"></p>
+                </td>
+
+                <td>
+                    <p><input type="button" id="SendReg" value="Send"></p>
+                </td>
+
+            </tr>
+        </table>
+
+
+    </form>
+</div>
+
+
+<script src="jquery.js"></script>
+<script src="/reg.js"></script>
+
+</body>
+
+</html>

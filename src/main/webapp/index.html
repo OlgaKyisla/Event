@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple</title>
+    <link type="text/css"  rel="stylesheet"  href="style.css"/>
+</head>
+
+<body>
+<div id="fon">
+    <header id="menu">
+        <img src="event1.svg" alt="tru" width="225">
+    </header>
+
+    <h3 align="center"> Login to the site </h3>
+    <p align="center"><font size="4">Enter your email and password </font></p>
+    <form id="form1" method="post" action="/login">
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="email"><font size="3" face="Comfortaa">Email :</font></label>
+                </td>
+                <td>
+                    <input type="email" name="login" id="email" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password"><font size="3" face="Comfortaa">Passworg:</font></label>
+                </td>
+                <td>
+                    <input type="password" name="pass" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><input id="SendSubmit" type="button" value="Send"></p>
+                </td>
+                <td>
+                    <p><input type="button" id="exitButton" value="Registration"> </p>
+                </td>
+
+            </tr>
+
+
+        </table>
+        <br>
+
+    </form>
+
+</div>
+
+<script src="jquery.js"></script>
+<script src="/index.js"></script>
+</body>
+</html>

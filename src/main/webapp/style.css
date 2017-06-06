@@ -1,0 +1,93 @@
+Body {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.bg {
+    color: white;
+    background-image: url("back.png"), url("back.png");
+    background-repeat: repeat;
+    padding: 35px;
+}
+
+.hr {
+    margin: 0px; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    height: 60px;
+    width: 70%;
+    display: inline-block;
+    position: fixed;
+    left: 1000px;
+    padding-top: 17px;
+}
+
+.hr li {
+    font-family: Geneva;
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border-width: 3px; /*ширина рамки*/
+    border-color: #1ff0df; /* Рамка вокруг текста */
+    /*padding: 9px;  Поля вокруг текста */
+    font-size: 25px;
+}
+
+#menu {
+
+    position: fixed;
+    padding: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    background: url("back.png"), url("back.png");
+    z-index: 10;
+    height: 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1); /* Параметры тени */
+
+}
+
+
+
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+a:link { /*для ссилок ще не посещаемых */
+    color: #1ff0df;
+}
+
+a:visited { /*для ссилок  посещаемых */
+    color: #1ff0df;
+}
+
+a:hover { /*для ссилок на яких наводиш мишкою */
+    color: yellow;
+}
+
+#fon {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    background: url("back.png"), url("back.png");
+    color: #1ff0df;
+    font-size: 15px;
+}
+#table{
+    width: 90%;
+    margin: auto;
+}
+#table td,th{
+
+    border: 1px solid #1ff0df;
+    padding: 15px;
+    text-align: left;
+    height: 20px;
+    vertical-align: bottom;
+
+}
+
+#table tr:hover {background-color: black}
